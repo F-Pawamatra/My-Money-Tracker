@@ -137,8 +137,8 @@ class _HomeWidgetState extends State<HomeWidget> {
                           child: Column(
                             children: [ClipRRect(
                               borderRadius: BorderRadius.circular(60),
-                              child: Image.network(
-                                'https://blogunik.com/wp-content/uploads/2018/04/Boy-William-1-1024x1024.jpg', 
+                              child: Image.asset(
+                                'assets/images/boy.jpg', 
                                 width: 50, 
                                 height: 50,
                                 fit: BoxFit.cover,
